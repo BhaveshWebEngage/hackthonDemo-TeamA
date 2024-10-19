@@ -1,0 +1,51 @@
+[
+    {
+      "user_id": "user1",
+      "session_count": 50,
+      "average_session_length": 300,
+      "last_interaction_days": 20,
+      "total_purchases": 5,
+      "email_opens": 10,
+      "push_opens": 2,
+      "inapp_interactions": 3,
+      "retention_strategy": "Send a personalized offer based on previous purchases.",
+      "outcome": "Retention successful"
+    },
+    {
+      "user_id": "user2",
+      "session_count": 5,
+      "average_session_length": 60,
+      "last_interaction_days": 30,
+      "total_purchases": 1,
+      "email_opens": 1,
+      "push_opens": 0,
+      "inapp_interactions": 0,
+      "retention_strategy": "Engage with a win-back campaign highlighting new products.",
+      "outcome": "Retention unsuccessful"
+    },
+    {
+      "user_id": "user3",
+      "session_count": 80,
+      "average_session_length": 450,
+      "last_interaction_days": 5,
+      "total_purchases": 10,
+      "email_opens": 20,
+      "push_opens": 5,
+      "inapp_interactions": 7,
+      "retention_strategy": "Invite to an exclusive loyalty program.",
+      "outcome": "Retention successful"
+    },
+    {
+      "user_id": "user4",
+      "session_count": 10,
+      "average_session_length": 90,
+      "last_interaction_days": 25,
+      "total_purchases": 2,
+      "email_opens": 3,
+      "push_opens": 1,
+      "inapp_interactions": 1,
+      "retention_strategy": "Send a feedback request and offer a discount for participation.",
+      "outcome": "Retention unsuccessful"
+    }
+  ]
+  

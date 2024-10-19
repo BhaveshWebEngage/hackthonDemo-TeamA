@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churn Dashboard</title>
+</head>
+<body>
+    <h1>Customer Churn Predictions</h1>
+    <table>
+        <tr>
+            <th>User ID</th>
+            <th>Churn Risk</th>
+        </tr>
+        {% for prediction in churn_predictions %}
+        <tr>
+            <td>{{ prediction.user_id }}</td>
+            <td>{{ prediction.churn_risk }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
